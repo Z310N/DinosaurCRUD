@@ -1,0 +1,255 @@
+@font-face {
+    font-family: fciconic;
+    src: url(FC_Iconic_Regular.ttf);
+}
+
+body {
+    background: radial-gradient(circle, rgba(25, 136, 247, 0.26) 0%, rgba(247, 25, 136, 0.08) 70%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a,
+button {
+    font-family: fciconic;
+    font-weight: 500;
+    font-size: 16px;
+    color: #64609f;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: white;
+    color: #0088a9;
+    border: solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(6, 152, 249);
+}
+
+#pi{
+    font-size: 24px;
+}
+
+#addw{
+    font-size: 24px;
+}
+
+
+#hd {
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(140deg, rgba(0,255,175,1) 41%, rgba(29,30,253,1) 50%, rgba(161,69,252,1) 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+.upload {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.preview {
+    padding-right: 80px;
+    color: #203e65;
+    font-size: 24px;
+}
+
+.header {
+    font-family: fciconic;
+}
+
+.add-img {
+    margin-top: 10px;
+
+}
+
+.img-ed{
+    width: 432px;
+    height: 153px;
+    border: 1px solid gray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.details {
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: #203e65;
+}
+
+.headdetails {
+    padding: 2px;
+    border-bottom: 1px solid gainsboro;
+    text-align: center;
+    font-size: 28px;
+}
+
+.details-img {
+    margin-top: 20px;
+}
+
+.name-img {
+    margin-top: 20px;
+}
+
+.description-img {
+    margin-top: 20px;
+}
+
+.type-img {
+    margin-top: 20px;
+}
+
+.collection-img {
+    margin-top: 20px;
+}
+
+#image_input {
+    margin-top: 15px;
+}
+
+#text_input {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid rgb(141, 141, 141);
+}
+
+#description {
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 100%;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+#type {
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 30%;
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 10px;
+}
+
+#collec {
+    margin-top: 15px;
+}
+
+#sub {
+    background: linear-gradient(135deg, rgba(25, 136, 247, 1) 54%, rgba(247, 24, 228, 1) 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-family: fciconic;
+    margin-top: 30px;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 2px;
+    border-top: 1px solid gainsboro;
+}
+
+.display-img {
+    width: 264px;
+    height: 358px;
+    border: 1px solid gray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    margin-top: 65px;
+    padding-bottom: 65px;
+    justify-content: center;
+}
+
+#headexplain {
+    background: linear-gradient(135deg, rgba(24, 79, 247, 1) 33%, rgba(247, 25, 136, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#explain1 {
+    background: #5b3a64;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.teamimg {
+    margin-top: 50px;
+}
+
+.team {
+    margin-top: 50px;
+}
+
+p b {
+    font-size: 20px;
+}
+
+#sub{
+    font-size: 20px;
+}

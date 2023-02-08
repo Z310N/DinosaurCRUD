@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: fciconic;
+    src: url(FC_Iconic_Regular.ttf);
+}
+
+.body-head-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link a {
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#register {
+    background: linear-gradient(24deg, #0038f5 0%, #9f03ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 2px;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: fciconic;
+    font-size: 24px;
+}
+
+#login {
+    color: white;
+    background: linear-gradient(24deg, #0038f5 0%, #9f03ff 100%);
+    padding: 14px 40px;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: fciconic;
+    font-size: 24px;
+
+}
+
+body {
+    background: radial-gradient(circle, rgba(25, 136, 247, 0.26) 0%, rgba(247, 25, 136, 0.08) 70%);
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: fciconic;
+}
+
+#headreg {
+    text-align: center;
+    background: linear-gradient(24deg, #01debc 9.94%, #0038f5 50.34%, #9f03ff 82.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#headreg{
+    font-size: 46px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: fciconic;
+    font-size: 14px;
+}
+
+button {
+    background: linear-gradient(135deg, rgba(25, 136, 247, 1) 54%, rgba(247, 24, 228, 1) 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    font-family: fciconic;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.check{
+    color: #6e84ab;
+    font-size: 18px;
+}
+
+.container {
+    width: 400px;
+    margin-top: 30px;
+}
+
+#sub{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}

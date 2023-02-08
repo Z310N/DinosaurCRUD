@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: fciconic;
+
+}
+
+@font-face {
+    font-family: fciconic;
+    src: url(FC_Iconic_Regular.ttf);
+}
+
+.body-head-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#register {
+    background: linear-gradient(24deg, #0038f5 0%, #9f03ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 2px;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: fciconic;
+    font-size: 24px;
+}
+
+#login {
+    color: white;
+    background: linear-gradient(24deg, #0038f5 0%, #9f03ff 100%);
+    padding: 14px 40px;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: fciconic;
+    font-size: 24px;
+
+}
+
+body {
+    background: radial-gradient(circle, rgba(25, 136, 247, 0.26) 0%, rgba(247, 25, 136, 0.08) 70%);
+}
+
+#iamg {
+    font-family: fciconic;
+    text-decoration: none;
+    background: linear-gradient(24deg, #01debc 9.94%, #0038f5 50.34%, #9f03ff 82.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#head-1 {
+    background: linear-gradient(rgba(1, 224, 187, 1), rgba(0, 56, 245, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Epilogue;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.part1 {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.present {
+    padding-right: 20px;
+}
+
+.presentimg {
+    display: flex;
+}
+
+.preimg1 {
+    display: block;
+    box-sizing: border-box;
+    padding-right: 50px;
+    margin-top: 60px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#pratya {
+    font-family: 'Poppins', sans-serif;
+    background: #5b3a64;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.preimg2 {
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 60px;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+#wanit {
+    font-family: 'Poppins', sans-serif;
+    background: #5b3a64;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pretext1 {
+    background: linear-gradient(135deg, rgba(25, 136, 247, 1) 13%, rgba(247, 25, 136, 1) 100%);
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: fciconic;
+    font-size: 20px;
+}
+
+.pretext2 {
+    background: linear-gradient(90deg, rgba(100, 96, 159, 1) 0%, rgba(247, 25, 136, 0.46) 100%);
+    background: #5b3a64;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.poppular {
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.poppular_images {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(24deg, #01debc 9.94%, #0038f5 50.34%, #9f03ff 82.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.popfile {
+    display: flex;
+    justify-content: center;  
+}
+
+.img {
+    padding: 24px;
+    text-align: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.pop-img img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px 1px;
+}
+
+.img-name {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.pop-name {
+    background: linear-gradient(24deg, #01debc 9.94%, #0038f5 50.34%, #9f03ff 82.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.correction {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cor-item {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 25px 25px 10px
+}
+
+.cor-item{
+    border-radius: 10px;
+}
+
+.poppular_correction {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(24deg, #01debc 9.94%, #0038f5 50.34%, #9f03ff 82.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.categoryimg {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(24deg, #01debc 9.94%, #0038f5 50.34%, #9f03ff 82.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.category {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cate-img {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 25px 25px 10px
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    margin-top: 65px;
+    padding-bottom: 65px;
+    justify-content: center;
+}
+
+#headexplain{
+    background: linear-gradient(135deg, rgba(24, 79, 247, 1) 33%, rgba(247, 25, 136, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#explain1{
+    background: #5b3a64;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.teamimg{
+    margin-top: 50px;
+}
+
+.team{
+    margin-top: 50px;
+}
